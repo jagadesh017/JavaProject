@@ -11,9 +11,12 @@ public class FileReader {
         BufferedReader br = new BufferedReader(new java.io.FileReader("/Users/jagadeesh/Documents/myNewFile.txt"));
 
         String line;
+        String exp="Mac";
 
         while((line = br.readLine()) !=null){
+            if(line.contains(exp)){
             System.out.println(line);
+        }
         }
     }
 }
