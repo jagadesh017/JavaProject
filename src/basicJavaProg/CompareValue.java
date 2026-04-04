@@ -32,6 +32,8 @@ public class CompareValue {
 		{
 			System.out.println("c is low number out of three numbers value is" +c);
 		}
-
+sc.close();
+sc2.close();
+sc3.close();
 	}
 }

@@ -22,6 +22,7 @@ public class DuplicatesInString {
 					
 			}
 		}
+		System.out.println(count);
 	}
 
 }

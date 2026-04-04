@@ -3,7 +3,6 @@ package basicJavaProg;
 public class TypeCasting {
 	
 	public static void main(String[] args) {
-		int a= 10;
 		double b= 10.5;
 		String c = "100";
 		

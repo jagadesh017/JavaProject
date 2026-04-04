@@ -7,7 +7,7 @@ public class ArryListOperations {
 
 	public static void main(String[] args) {
 
-		ArrayList value = new ArrayList();
+		ArrayList<Object> value = new ArrayList<>();
 
 		value.add("jagadeesh");
 		value.add("keerthi");
