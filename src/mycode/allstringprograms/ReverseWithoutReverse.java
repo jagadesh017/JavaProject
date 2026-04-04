@@ -1,7 +1,5 @@
 package mycode.allstringprograms;
 
-import java.util.Arrays;
-
 public class ReverseWithoutReverse {
     public static void main(String[] args) {
         String name ="jagadeesh";

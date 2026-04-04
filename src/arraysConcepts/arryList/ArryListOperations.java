@@ -19,9 +19,8 @@ public class ArryListOperations {
 		
 		 int val=value.size(); for(int i=0; i<val;i++) {
 		  System.out.println(value.get(i));
-		 
-
-		Iterator itr = value.iterator();
+	
+		Iterator<Object> itr = value.iterator();
 		 while (itr.hasNext()) 
 		 { 
 			 Object valu = itr.next(); 
