@@ -34,9 +34,7 @@ public class ScientificCalc implements Calc{
 		
 		a.add();
 		a.sub();
-		
-	
-		
-	
+		a.mul(10, 10);
+
 	}
 }
