@@ -29,7 +29,7 @@ public class ScientificCalc implements Calc{
 		cal.sub();
 		cal.scientificSin();
 		cal.scientificCos();
-		//
+		
 		Calc a= new ScientificCalc();
 		
 		a.add();

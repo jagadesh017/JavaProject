@@ -1,0 +1,10 @@
+<suite name="abc" parallel= "classes" thread-count ="2" >
+    <test name="regresssion">
+        <classes>
+            <class name= "">
+                <method name ="">
+                </method>
+            </class>
+        </classes>
+    </test>
+</suite>
