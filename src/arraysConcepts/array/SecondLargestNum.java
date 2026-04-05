@@ -25,5 +25,4 @@ public class SecondLargestNum {
         }
         System.out.println("Second Largest: " + secondLargest);
     }
-    
 }

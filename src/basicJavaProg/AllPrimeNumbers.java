@@ -26,6 +26,6 @@ public class AllPrimeNumbers {
 					
 			}
 		}
-
+sc.close();
 	}
 }

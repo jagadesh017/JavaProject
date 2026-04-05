@@ -15,7 +15,7 @@ public class LeapYear {
 		}else {
 			System.out.println("mentioned year is not leap year :" + year);
 		}
-
+sc.close();
 	}
 
 }

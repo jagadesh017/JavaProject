@@ -14,7 +14,8 @@ public class EvenOrOdd {
 		System.out.println("The given number is even number and the number is:"+num);
 	}
 	else {
-		System.out.println("The given number is even number and the number is:"+num);
+		System.out.println("The given number is odd number and the number is:"+num);
 	}
+	sc.close();
 }
 }

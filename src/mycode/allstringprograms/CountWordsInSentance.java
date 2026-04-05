@@ -10,7 +10,6 @@ public class CountWordsInSentance {
             count++;
         }
         System.out.println(count);
-
     }
 
 }

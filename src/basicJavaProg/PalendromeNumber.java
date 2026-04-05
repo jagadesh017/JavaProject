@@ -18,6 +18,7 @@ public class PalendromeNumber {
 			num = num / 10;
 		}
 		System.out.println(sum);
+		sc.close();
 		if (r == sum) {
 			System.out.println("The given number is palindrome");
 		} else {
@@ -37,6 +38,7 @@ public class PalendromeNumber {
 			numb = numb / 10;
 		}
 		System.out.println(reverse);
+		sca.close();
 		if (t == reverse) {
 			System.out.println("The given number is palindrome");
 		} else {

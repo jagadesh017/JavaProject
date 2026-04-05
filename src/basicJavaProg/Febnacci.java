@@ -22,7 +22,7 @@ public class Febnacci {
 			System.out.println(c);
 		}
 		
-
+sc.close();
 	}
 
 }
