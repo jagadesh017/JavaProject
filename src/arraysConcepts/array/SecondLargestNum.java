@@ -6,12 +6,10 @@ public class SecondLargestNum {
 
     public static void main(String[] args) {
         int[] a = {3, 6, 8, 4, 1, 9, 2, 7};
-
         Arrays.sort(a);
         int secondNum= a[a.length-2];
-        System.out.println(secondNum);
+        System.out.println((secondNum));
         System.out.println(a[1]);
-
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;

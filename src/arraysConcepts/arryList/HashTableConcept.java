@@ -11,15 +11,15 @@ public class HashTableConcept {
 	public static void main(String[] args) {
 /*
 *                    Hashmap             |         HashTable 
-* it is not thread safe and unsybchronized|thread safe and synchronized
+* it is not thread safe and un-synchronized|thread safe and synchronized
 * It is fast | it is slow
-* works with multiplethread at a time |  works with single thread at a time
+* works with multiple thread at a time |  works with single thread at a time
 * allows one null key&multiple null values | will not allow null key and values 
-* iterator is used to iterate in hasmap|Enumurator is used to iterate the value hashtable
+* iterator is used to iterate in hasmap | Enumurator is used to iterate the value hashtable
 */
 
 		/*if you provide duplicate key value it will give you the new value of the list
-		 * we can syncanized the hastable
+		 * we can synchronize the hastable
 		 * we can store data in key and value bases
 		 * key-- object & hashcode---value
 		 * not allow null key and null value

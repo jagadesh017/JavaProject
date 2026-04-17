@@ -9,11 +9,11 @@ public class HashmapValidation {
 		// need to use put key to data in key and value base
 		
 		
-		//types in maps-Hashmap, treemap and linkedhashmap 
+		//types in maps-Hashmap, treemap and linked hashmap
 		//hashmap we will not get any order of the elements
 		//Tree map will give you the result in ascending order based on key value,
 		//not allows null key while executing=>will give you null point exception
-		//Linedhasmap will give you the output in insertion order
+		//Lined hasmap will give you the output in insertion order
 		
 		TreeMap<String , String > value = new TreeMap<String, String>();
 		

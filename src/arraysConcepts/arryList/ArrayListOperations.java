@@ -3,7 +3,7 @@ package arraysConcepts.arryList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArryListOperations {
+public class ArrayListOperations {
 
 	public static void main(String[] args) {
 
@@ -19,11 +19,11 @@ public class ArryListOperations {
 		
 		 int val=value.size(); for(int i=0; i<val;i++) {
 		  System.out.println(value.get(i));
-	
+
 		Iterator<Object> itr = value.iterator();
-		 while (itr.hasNext()) 
-		 { 
-			 Object valu = itr.next(); 
+		 while (itr.hasNext())
+		 {
+			 Object valu = itr.next();
 			 System.out.println(valu); }
 		 
 	}

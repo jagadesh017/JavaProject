@@ -4,11 +4,11 @@ public class SumOfTwoMatrix {
 
 	public static void main(String[] args) {
 
-		int a[][] = { { 1, 2 }, { 3, 4 } };
+		int [][]a = { { 1, 2 }, { 3, 4 } };
 
-		int b[][] = { { 1, 0 }, { 0, 1 } };
+		int [][]b = { { 1, 0 }, { 0, 1 } };
 
-		int c[][] = new int[2][2];
+		int [][]c = new int[2][2];
 
 		for (int i = 0; i < a.length; i++) {
 
