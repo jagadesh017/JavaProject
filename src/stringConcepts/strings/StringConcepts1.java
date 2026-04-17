@@ -11,21 +11,21 @@ public class StringConcepts1 {
         }
         System.out.println(rev);
     
-    int n = 5678;
+    int number = 5678;
     int revs =0;
-    while (n!=0) {
-        int d= n%10;
-        revs= revs*10+ d;
-        n=n/10;
-        
-    }System.out.println(revs);
-   
-  /*  int a=500;
-    int sum=0;
-    while (n!=0) {
-        sum = sum+ n%10;
-        n= n/10;
+    while (number!=0) {
+        int remainder= number%10;
+        revs= revs*10+ remainder;
+        number=number/10;
     }
-    System.out.println(sum); */
+    System.out.println(revs);
+   //sum of digits in a number
+  int a=5050;
+    int sum=0;
+    while (a!=0) {
+        sum = sum+ a%10;
+        a= a/10;
+    }
+    System.out.println(sum);
 }
 }

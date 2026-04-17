@@ -16,7 +16,7 @@ public class StringConcepts {
       
         // print only 3 and 5 divisible numbers
         for(int i=1;i<=100;i++){
-            if(i %3==0 || i%5==0){
+            if(i %3==0 && i%5==0){
                 System.out.print(i + ",");
             }
         }
@@ -25,38 +25,11 @@ public class StringConcepts {
     String auto1 = "jagadeesh";
         char target = 'a';
         int count = 0;
-
-        // Convert to lowercase to make it case-insensitive
-        String lowerAuto = auto1.toLowerCase();
-
-        for (int i = 0; i < lowerAuto.length(); i++) {
-            if (lowerAuto.charAt(i) == target) {
+        for (int i = 0; i < auto1.length(); i++) {
+            if (auto1.charAt(i) == target) {
                 count++;
             }
         }
         System.out.println("Occurrence of '" + target + "': " + count);
-System.out.println("----------------------------------------------------------");
- String input = "jagadeesh";
- char ch[]= input.toCharArray();
-
- for(int i=0; i<=input.length(); i++){
-
-    for( int j=i+1;j<input.length();j++){
-
-        if(ch[i]==ch[j]){
-            System.out.println(ch[i]);
-        break;    
-        } else if( ch[i]!=ch[j]){
-            System.out.print(ch[i]+",");
-            break;
-        } 
-    }
-    
- }
-        
-        
-
     }
     }
-
-

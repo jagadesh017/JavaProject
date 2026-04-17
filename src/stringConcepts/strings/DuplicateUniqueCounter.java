@@ -2,13 +2,12 @@ package stringConcepts.strings;
 public class DuplicateUniqueCounter {
     public static void main(String[] args) {
         String input = "jagadeesh";
-        char ch[] = input.toCharArray();
+        char []ch = input.toCharArray();
         
-        int uniqueCount = 0;
-        int duplicateCount = 0;
+        int uniqueCharCount = 0;
+        int duplicateCharCount = 0;
 
         for (int i = 0; i < ch.length; i++) {
-            // Check if this character was already handled (to avoid double counting)
             boolean alreadySeen = false;
             for (int k = 0; k < i; k++) {
                 if (ch[i] == ch[k]) {
@@ -28,16 +27,16 @@ public class DuplicateUniqueCounter {
             }
 
             if (isRepeated) {
-                duplicateCount++;
+                duplicateCharCount++;
                 System.out.println(ch[i] + " is a Duplicate");
             } else {
-                uniqueCount++;
+                uniqueCharCount++;
                 System.out.println(ch[i] + " is Unique");
             }
         }
 
         System.out.println("\n--- Final Summary ---");
-        System.out.println("Total Unique Characters: " + uniqueCount);
-        System.out.println("Total Duplicate Characters (Sets): " + duplicateCount*2);
+        System.out.println("Total Unique Characters: " + uniqueCharCount);
+        System.out.println("Total Duplicate Characters (Sets): " + duplicateCharCount*2);
     }
 }

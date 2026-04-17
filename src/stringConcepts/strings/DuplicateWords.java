@@ -7,21 +7,17 @@ import java.util.stream.Collectors;
 
 public class DuplicateWords {
     public static void main(String[] args) {
-        
-    
-    String input = "I love cookies cookies apples and pancakes pancakes";
+        String input = "I love cookies cookies apples and pancakes pancakes";
 String result = Arrays.stream(input.split(" ")).distinct().collect(Collectors.joining(" "));
 System.out.println(result);
 System.out.println("------------------------");
 
 String auto = "jagadeesshh";
-char ch[]= auto.toCharArray();
+char []ch= auto.toCharArray();
 Set<Character> charSet = new LinkedHashSet<>();
 for (char c : ch) {
-    charSet.add(c); 
-     
+    charSet.add(c);
 }
-
 StringBuilder sb = new StringBuilder();
 for (Character cr : charSet) {
     sb.append(cr);
