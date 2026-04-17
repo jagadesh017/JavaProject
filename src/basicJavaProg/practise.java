@@ -6,8 +6,8 @@ import java.util.Set;
 
 public class practise {
 	// prime number
-	// reverse and palendrome
-	// repeted letters in string
+	// reverse and palindrome
+	// repeated letters in string
 	public static void main(String[] args) {
 		
 		Map<String , String > data = new HashMap<String, String>();
@@ -18,17 +18,13 @@ public class practise {
 		data.put(null, null);
 		data.put("baba", null);	
 		
-			Set<String> value = 	data.keySet();
+			Set<String> value = data.keySet();
 			for(String a: value) {
 				System.out.println(a + ":" + data.get(a));
 			}
-			
 			Set<Map.Entry<String, String>> val = data.entrySet();
 			for(Map.Entry<String, String> b:val) {
 				System.out.println(b.getKey()+ ":" + b.getValue());
-			
-				
 			}
-			
 	}
 		}

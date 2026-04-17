@@ -17,17 +17,5 @@ public class MapConcepts {
         for(Map.Entry<Integer, String> va: value.entrySet()){
             System.out.println(va.getKey() + " and " +va.getValue());
         }
-
-
-       // 
-
-
-
-
-
-
-
-
-
     }
 }

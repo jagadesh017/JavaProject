@@ -7,19 +7,12 @@ public class SwapData {
 		int i = 100;
 		int j = 200;
 
-		i = i + j;
-		j = i - j;
-		i = i - j;
-		System.out.println(i);
-		System.out.println(j);
+        i = i+j; // i=300
+        j=i-j; // j=300-200=100
+        i=i-j; // i=300-100=200
 
-		// without third variable
-		int k=i;
-			j=i;
-			i=k;			
-			System.out.println(i);
-			System.out.println(j);
-
+        System.out.println("value of i is " + i);
+        System.out.println("value of j is " + j);
 	}
 
 }

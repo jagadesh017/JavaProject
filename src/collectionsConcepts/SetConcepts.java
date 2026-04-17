@@ -8,7 +8,7 @@ public class SetConcepts {
     public static void main(String[] args) {
            
     //set-> it wil not allow duplicate values, we will use add keyword
-    // HashSet- assending order
+    // HashSet- ascending order
     //LinkedHashset- insertion order
     // TreeSet- sorting order 
     // sortedSet-
