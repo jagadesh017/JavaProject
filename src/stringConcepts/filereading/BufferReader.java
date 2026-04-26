@@ -15,15 +15,17 @@ public static void main(String[] args) throws IOException {
     //BufferedWriter -- for write text data
     //write-- to write text in txt file
 
-    BufferedWriter writer = new BufferedWriter(new FileWriter("D:/exp1.txt"));
+    //BufferedWriter writer = new BufferedWriter(new FileWriter("D:/exp1.txt"));
+    BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/jagadeesh/Documents/test.txt"));
     writer.write("selenium");
     writer.newLine();
     writer.write("automation");
     writer.close();
     System.out.println("closed file successfully");
 
-            BufferedReader br = new BufferedReader(new FileReader("D:/test/exp1.txt"));
-             {
+            //BufferedReader br = new BufferedReader(new FileReader("D:/test/exp1.txt"));
+
+    BufferedReader br = new BufferedReader(new FileReader("/Users/jagadeesh/Documents/test.txt"));{
             String line;
             while ((line = br.readLine()) != null) {
                 System.out.println("Read data is : "+line);
