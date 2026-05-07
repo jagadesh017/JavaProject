@@ -21,7 +21,7 @@ public class ReadData {
 
         Object[][] data = new Object[rowNum-1][colNum];
 
-        for(int i=0;i<rowNum-1;i++){
+       for(int i=0;i<rowNum-1;i++){
             XSSFRow row = sheet.getRow(i+1);
             for(int j=0;j<colNum;j++){
                 XSSFCell cell = row.getCell(j);

@@ -1,6 +1,5 @@
 package excelDataReading;
 
-import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -15,14 +14,11 @@ public class WriteData {
         XSSFWorkbook  workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("Sheet1");
 
-        DataFormatter formatter = new DataFormatter();
-
         Object[][] data = {
                 {"Name", "Age", "City"},
                 {"John", 30, "New York"},
                 {"Alice", 25, "Los Angeles"},
                 {"jagadeesh", 33, "india"}
-
         };
         int rowCount =0;
         for(Object[] row:data){
