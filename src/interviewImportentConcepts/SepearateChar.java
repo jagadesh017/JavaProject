@@ -13,17 +13,15 @@ public class SepearateChar {
                 char ch= input.charAt(i);
             if (Character.isDigit(ch)) {
                 digits.append(ch);
-            } else {
+            } else
                 if (Character.isLetter(ch)) {
                     cha.append(ch);
                 } else {
                     spec.append(ch);
                 }
-            }
         }
         System.out.println(digits);
         System.out.println(cha);
         System.out.println(spec);
-
     }
 }

@@ -1,10 +1,6 @@
 package stringConcepts.strings;
 
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class CountOccurrence {
 
@@ -21,7 +17,7 @@ public class CountOccurrence {
 
         String a= "aabbcc";
         char []ct =a.toCharArray();
-        Set<Character> set = new LinkedHashSet<>();
+        Set<Character> set = new HashSet<>();
 
         for( Character car: ct){
             set.add(car);

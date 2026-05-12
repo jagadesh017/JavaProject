@@ -7,7 +7,7 @@ public class DupliCharUsingHashset {
 
     public static void main(String[] args) {
     String name = "jagadeesh";
-    char ch[] = name.toCharArray();
+    char []ch = name.toCharArray();
 
     Set<Character> set = new HashSet<>();
     Set<Character> duplicates= new HashSet<>();
@@ -21,4 +21,3 @@ System.out.println(duplicates);
 
     }
 }
-
